@@ -1,0 +1,22 @@
+# mumtaffect requirements
+# Install with: pip install -r mumtaffect/requirements.txt
+
+# Core ML / data
+torch>=2.0
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+
+# Physiological signal processing
+neurokit2
+
+# EEG (optional — only needed for EEG band-power features)
+mne
+
+# Audio context (optional — only needed with preprocess_v2 --media_root)
+librosa
+
+# Dataset generation
+# (already in repo requirements.txt)

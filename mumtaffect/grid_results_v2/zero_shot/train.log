@@ -1,0 +1,362 @@
+Loaded 5807 trials from 72 users on mps
+Targets: raw=('felt_arousal_raw', 'felt_valence_raw', 'perceived_arousal_raw', 'perceived_valence_raw'), bins=('felt_arousal_bin', 'felt_valence_bin', 'perceived_arousal_bin', 'perceived_valence_bin'), gaps=('gap_arousal_raw', 'gap_valence_raw')
+Fold 0: 2890 features, 81 tokens
+Token preview: [('au:f_emotion_labelling', 202), ('au:first_fix', 202), ('au:last_frame_video', 202), ('au:p_emotion_labelling', 202), ('au:scenario', 202), ('au:second_fix', 202), ('au:video', 202), ('context', 7), ('cursor:f_emotion_labelling', 34), ('cursor:first_fix', 34), ('cursor:last_frame_video', 34), ('cursor:p_emotion_labelling', 34)]
+  starting epoch 001/030
+    train batch 020/063 epoch=1/30 loss=1.6798
+    train batch 040/063 epoch=1/30 loss=1.4787
+    train batch 060/063 epoch=1/30 loss=1.3914
+    train batch 063/063 epoch=1/30 loss=1.3385
+  epoch 001: train_loss=1.5941 val_loss=1.3045 train_emotion=1.1038 val_emotion=0.8761 lr=3.00e-04
+    val_f1=0.448 felt_a=0.354 felt_v=0.383 perc_a=0.384 perc_v=0.671 raw_mae=1.457 gap_mae=1.277
+  starting epoch 002/030
+    train batch 020/063 epoch=2/30 loss=1.2883
+    train batch 040/063 epoch=2/30 loss=1.2305
+    train batch 060/063 epoch=2/30 loss=1.2544
+    train batch 063/063 epoch=2/30 loss=1.2826
+  epoch 002: train_loss=1.2831 val_loss=1.2365 train_emotion=0.8857 val_emotion=0.8381 lr=3.00e-04
+  starting epoch 003/030
+    train batch 020/063 epoch=3/30 loss=1.2622
+    train batch 040/063 epoch=3/30 loss=1.0987
+    train batch 060/063 epoch=3/30 loss=1.1056
+    train batch 063/063 epoch=3/30 loss=1.4657
+  epoch 003: train_loss=1.1739 val_loss=1.2657 train_emotion=0.8105 val_emotion=0.8575 lr=3.00e-04
+  starting epoch 004/030
+    train batch 020/063 epoch=4/30 loss=0.9597
+    train batch 040/063 epoch=4/30 loss=1.0091
+    train batch 060/063 epoch=4/30 loss=1.0528
+    train batch 063/063 epoch=4/30 loss=0.9375
+  epoch 004: train_loss=1.0745 val_loss=1.1557 train_emotion=0.7411 val_emotion=0.7799 lr=3.00e-04
+  starting epoch 005/030
+    train batch 020/063 epoch=5/30 loss=1.0943
+    train batch 040/063 epoch=5/30 loss=0.9563
+    train batch 060/063 epoch=5/30 loss=0.9791
+    train batch 063/063 epoch=5/30 loss=1.1965
+  epoch 005: train_loss=1.0148 val_loss=1.0983 train_emotion=0.6960 val_emotion=0.7412 lr=3.00e-04
+    val_f1=0.611 felt_a=0.496 felt_v=0.618 perc_a=0.557 perc_v=0.774 raw_mae=1.209 gap_mae=1.192
+  starting epoch 006/030
+    train batch 020/063 epoch=6/30 loss=0.9709
+    train batch 040/063 epoch=6/30 loss=0.9795
+    train batch 060/063 epoch=6/30 loss=0.9587
+    train batch 063/063 epoch=6/30 loss=0.7916
+  epoch 006: train_loss=0.9507 val_loss=1.1496 train_emotion=0.6495 val_emotion=0.7806 lr=3.00e-04
+  starting epoch 007/030
+    train batch 020/063 epoch=7/30 loss=0.8273
+    train batch 040/063 epoch=7/30 loss=0.8024
+    train batch 060/063 epoch=7/30 loss=0.9020
+    train batch 063/063 epoch=7/30 loss=1.2404
+  epoch 007: train_loss=0.9165 val_loss=1.0808 train_emotion=0.6247 val_emotion=0.7280 lr=3.00e-04
+  starting epoch 008/030
+    train batch 020/063 epoch=8/30 loss=0.8060
+    train batch 040/063 epoch=8/30 loss=0.9539
+    train batch 060/063 epoch=8/30 loss=0.9194
+    train batch 063/063 epoch=8/30 loss=0.5947
+  epoch 008: train_loss=0.8615 val_loss=1.1591 train_emotion=0.5829 val_emotion=0.7911 lr=3.00e-04
+  starting epoch 009/030
+    train batch 020/063 epoch=9/30 loss=0.7679
+    train batch 040/063 epoch=9/30 loss=0.9055
+    train batch 060/063 epoch=9/30 loss=0.7718
+    train batch 063/063 epoch=9/30 loss=1.1068
+  epoch 009: train_loss=0.8175 val_loss=1.1956 train_emotion=0.5517 val_emotion=0.8349 lr=3.00e-04
+  starting epoch 010/030
+    train batch 020/063 epoch=10/30 loss=0.8496
+    train batch 040/063 epoch=10/30 loss=0.7663
+    train batch 060/063 epoch=10/30 loss=0.8939
+    train batch 063/063 epoch=10/30 loss=0.8036
+  epoch 010: train_loss=0.7843 val_loss=1.1525 train_emotion=0.5239 val_emotion=0.7847 lr=3.00e-04
+    val_f1=0.634 felt_a=0.546 felt_v=0.615 perc_a=0.618 perc_v=0.757 raw_mae=1.199 gap_mae=1.270
+  starting epoch 011/030
+    train batch 020/063 epoch=11/30 loss=0.8813
+    train batch 040/063 epoch=11/30 loss=0.7680
+    train batch 060/063 epoch=11/30 loss=0.7143
+    train batch 063/063 epoch=11/30 loss=0.8336
+  epoch 011: train_loss=0.7299 val_loss=1.2423 train_emotion=0.4847 val_emotion=0.8795 lr=1.50e-04
+  starting epoch 012/030
+    train batch 020/063 epoch=12/30 loss=0.6478
+    train batch 040/063 epoch=12/30 loss=0.6289
+    train batch 060/063 epoch=12/30 loss=0.7208
+    train batch 063/063 epoch=12/30 loss=0.6303
+  epoch 012: train_loss=0.6596 val_loss=1.2486 train_emotion=0.4313 val_emotion=0.8800 lr=1.50e-04
+  starting epoch 013/030
+    train batch 020/063 epoch=13/30 loss=0.5842
+    train batch 040/063 epoch=13/30 loss=0.5787
+    train batch 060/063 epoch=13/30 loss=0.6355
+    train batch 063/063 epoch=13/30 loss=0.6750
+  epoch 013: train_loss=0.6202 val_loss=1.3003 train_emotion=0.4010 val_emotion=0.9350 lr=1.50e-04
+  starting epoch 014/030
+    train batch 020/063 epoch=14/30 loss=0.6511
+    train batch 040/063 epoch=14/30 loss=0.6852
+    train batch 060/063 epoch=14/30 loss=0.5653
+    train batch 063/063 epoch=14/30 loss=0.7735
+  epoch 014: train_loss=0.6062 val_loss=1.3306 train_emotion=0.3915 val_emotion=0.9553 lr=1.50e-04
+  starting epoch 015/030
+    train batch 020/063 epoch=15/30 loss=0.5852
+    train batch 040/063 epoch=15/30 loss=0.6588
+    train batch 060/063 epoch=15/30 loss=0.5887
+    train batch 063/063 epoch=15/30 loss=0.6280
+  epoch 015: train_loss=0.5688 val_loss=1.3540 train_emotion=0.3638 val_emotion=0.9734 lr=7.50e-05
+    val_f1=0.631 felt_a=0.525 felt_v=0.638 perc_a=0.588 perc_v=0.772 raw_mae=1.228 gap_mae=1.297
+  starting epoch 016/030
+    train batch 020/063 epoch=16/30 loss=0.4386
+    train batch 040/063 epoch=16/30 loss=0.6479
+    train batch 060/063 epoch=16/30 loss=0.4645
+    train batch 063/063 epoch=16/30 loss=0.7341
+  epoch 016: train_loss=0.5492 val_loss=1.3737 train_emotion=0.3496 val_emotion=1.0000 lr=7.50e-05
+  starting epoch 017/030
+    train batch 020/063 epoch=17/30 loss=0.4489
+    train batch 040/063 epoch=17/30 loss=0.5188
+    train batch 060/063 epoch=17/30 loss=0.4492
+    train batch 063/063 epoch=17/30 loss=0.6877
+  epoch 017: train_loss=0.5191 val_loss=1.4314 train_emotion=0.3251 val_emotion=1.0579 lr=7.50e-05
+  starting epoch 018/030
+    train batch 020/063 epoch=18/30 loss=0.4444
+    train batch 040/063 epoch=18/30 loss=0.5685
+    train batch 060/063 epoch=18/30 loss=0.5056
+    train batch 063/063 epoch=18/30 loss=0.4408
+  epoch 018: train_loss=0.5113 val_loss=1.4515 train_emotion=0.3204 val_emotion=1.0866 lr=7.50e-05
+  starting epoch 019/030
+    train batch 020/063 epoch=19/30 loss=0.5324
+    train batch 040/063 epoch=19/30 loss=0.5616
+    train batch 060/063 epoch=19/30 loss=0.4799
+    train batch 063/063 epoch=19/30 loss=0.6494
+  epoch 019: train_loss=0.5023 val_loss=1.5187 train_emotion=0.3114 val_emotion=1.1438 lr=3.75e-05
+  starting epoch 020/030
+    train batch 020/063 epoch=20/30 loss=0.5102
+    train batch 040/063 epoch=20/30 loss=0.4775
+    train batch 060/063 epoch=20/30 loss=0.4195
+    train batch 063/063 epoch=20/30 loss=0.7066
+  epoch 020: train_loss=0.4806 val_loss=1.5339 train_emotion=0.2949 val_emotion=1.1619 lr=3.75e-05
+    val_f1=0.614 felt_a=0.484 felt_v=0.632 perc_a=0.563 perc_v=0.777 raw_mae=1.214 gap_mae=1.272
+  starting epoch 021/030
+    train batch 020/063 epoch=21/30 loss=0.5143
+    train batch 040/063 epoch=21/30 loss=0.5415
+    train batch 060/063 epoch=21/30 loss=0.4175
+    train batch 063/063 epoch=21/30 loss=0.5013
+  epoch 021: train_loss=0.4679 val_loss=1.5411 train_emotion=0.2870 val_emotion=1.1654 lr=3.75e-05
+  starting epoch 022/030
+    train batch 020/063 epoch=22/30 loss=0.4242
+    train batch 040/063 epoch=22/30 loss=0.4665
+    train batch 060/063 epoch=22/30 loss=0.4511
+    train batch 063/063 epoch=22/30 loss=0.5545
+  epoch 022: train_loss=0.4561 val_loss=1.5822 train_emotion=0.2788 val_emotion=1.2069 lr=3.75e-05
+  starting epoch 023/030
+    train batch 020/063 epoch=23/30 loss=0.5257
+    train batch 040/063 epoch=23/30 loss=0.4774
+    train batch 060/063 epoch=23/30 loss=0.3586
+    train batch 063/063 epoch=23/30 loss=0.5541
+  epoch 023: train_loss=0.4557 val_loss=1.5666 train_emotion=0.2761 val_emotion=1.1882 lr=1.87e-05
+  starting epoch 024/030
+    train batch 020/063 epoch=24/30 loss=0.3867
+    train batch 040/063 epoch=24/30 loss=0.4629
+    train batch 060/063 epoch=24/30 loss=0.4495
+    train batch 063/063 epoch=24/30 loss=0.6257
+  epoch 024: train_loss=0.4511 val_loss=1.6032 train_emotion=0.2725 val_emotion=1.2279 lr=1.87e-05
+  starting epoch 025/030
+    train batch 020/063 epoch=25/30 loss=0.4206
+    train batch 040/063 epoch=25/30 loss=0.4413
+    train batch 060/063 epoch=25/30 loss=0.3598
+    train batch 063/063 epoch=25/30 loss=0.3573
+  epoch 025: train_loss=0.4349 val_loss=1.6266 train_emotion=0.2609 val_emotion=1.2494 lr=1.87e-05
+    val_f1=0.611 felt_a=0.478 felt_v=0.629 perc_a=0.571 perc_v=0.764 raw_mae=1.216 gap_mae=1.294
+  starting epoch 026/030
+    train batch 020/063 epoch=26/30 loss=0.3993
+    train batch 040/063 epoch=26/30 loss=0.5070
+    train batch 060/063 epoch=26/30 loss=0.4804
+    train batch 063/063 epoch=26/30 loss=0.8086
+  epoch 026: train_loss=0.4388 val_loss=1.6419 train_emotion=0.2635 val_emotion=1.2637 lr=1.87e-05
+  starting epoch 027/030
+    train batch 020/063 epoch=27/30 loss=0.4408
+    train batch 040/063 epoch=27/30 loss=0.4715
+    train batch 060/063 epoch=27/30 loss=0.4929
+    train batch 063/063 epoch=27/30 loss=0.3600
+  epoch 027: train_loss=0.4373 val_loss=1.6416 train_emotion=0.2620 val_emotion=1.2672 lr=9.37e-06
+  starting epoch 028/030
+    train batch 020/063 epoch=28/30 loss=0.4718
+    train batch 040/063 epoch=28/30 loss=0.4697
+    train batch 060/063 epoch=28/30 loss=0.4497
+    train batch 063/063 epoch=28/30 loss=0.4198
+  epoch 028: train_loss=0.4367 val_loss=1.6335 train_emotion=0.2621 val_emotion=1.2578 lr=9.37e-06
+  starting epoch 029/030
+    train batch 020/063 epoch=29/30 loss=0.5014
+    train batch 040/063 epoch=29/30 loss=0.4215
+    train batch 060/063 epoch=29/30 loss=0.4058
+    train batch 063/063 epoch=29/30 loss=0.3158
+  epoch 029: train_loss=0.4329 val_loss=1.6531 train_emotion=0.2594 val_emotion=1.2765 lr=9.37e-06
+  starting epoch 030/030
+    train batch 020/063 epoch=30/30 loss=0.4975
+    train batch 040/063 epoch=30/30 loss=0.4005
+    train batch 060/063 epoch=30/30 loss=0.4312
+    train batch 063/063 epoch=30/30 loss=0.7010
+  epoch 030: train_loss=0.4375 val_loss=1.6374 train_emotion=0.2623 val_emotion=1.2608 lr=9.37e-06
+    val_f1=0.608 felt_a=0.468 felt_v=0.621 perc_a=0.578 perc_v=0.766 raw_mae=1.217 gap_mae=1.291
+Fold 1: 2890 features, 81 tokens
+  starting epoch 001/030
+    train batch 020/063 epoch=1/30 loss=1.6283
+    train batch 040/063 epoch=1/30 loss=1.5261
+    train batch 060/063 epoch=1/30 loss=1.3548
+    train batch 063/063 epoch=1/30 loss=1.3302
+  epoch 001: train_loss=1.5818 val_loss=1.2563 train_emotion=1.0937 val_emotion=0.8705 lr=3.00e-04
+    val_f1=0.510 felt_a=0.378 felt_v=0.513 perc_a=0.465 perc_v=0.685 raw_mae=1.281 gap_mae=1.263
+  starting epoch 002/030
+    train batch 020/063 epoch=2/30 loss=1.2674
+    train batch 040/063 epoch=2/30 loss=1.1403
+    train batch 060/063 epoch=2/30 loss=1.2762
+    train batch 063/063 epoch=2/30 loss=1.2507
+  epoch 002: train_loss=1.2638 val_loss=1.2107 train_emotion=0.8742 val_emotion=0.8397 lr=3.00e-04
+  starting epoch 003/030
+    train batch 020/063 epoch=3/30 loss=1.1767
+    train batch 040/063 epoch=3/30 loss=1.1811
+    train batch 060/063 epoch=3/30 loss=1.2013
+    train batch 063/063 epoch=3/30 loss=0.8968
+  epoch 003: train_loss=1.1475 val_loss=1.1577 train_emotion=0.7888 val_emotion=0.8054 lr=3.00e-04
+  starting epoch 004/030
+    train batch 020/063 epoch=4/30 loss=1.0954
+    train batch 040/063 epoch=4/30 loss=0.9906
+    train batch 060/063 epoch=4/30 loss=0.9548
+    train batch 063/063 epoch=4/30 loss=1.0480
+  epoch 004: train_loss=1.0814 val_loss=1.1162 train_emotion=0.7390 val_emotion=0.7782 lr=3.00e-04
+  starting epoch 005/030
+    train batch 020/063 epoch=5/30 loss=0.8857
+    train batch 040/063 epoch=5/30 loss=1.0799
+    train batch 060/063 epoch=5/30 loss=0.9474
+    train batch 063/063 epoch=5/30 loss=0.9512
+  epoch 005: train_loss=1.0110 val_loss=1.1435 train_emotion=0.6875 val_emotion=0.8016 lr=3.00e-04
+    val_f1=0.569 felt_a=0.434 felt_v=0.544 perc_a=0.560 perc_v=0.739 raw_mae=1.115 gap_mae=1.224
+  starting epoch 006/030
+    train batch 020/063 epoch=6/30 loss=1.0417
+    train batch 040/063 epoch=6/30 loss=1.0445
+    train batch 060/063 epoch=6/30 loss=0.9037
+    train batch 063/063 epoch=6/30 loss=1.0490
+  epoch 006: train_loss=0.9485 val_loss=1.0680 train_emotion=0.6419 val_emotion=0.7508 lr=3.00e-04
+  starting epoch 007/030
+    train batch 020/063 epoch=7/30 loss=0.8200
+    train batch 040/063 epoch=7/30 loss=0.8301
+    train batch 060/063 epoch=7/30 loss=0.8116
+    train batch 063/063 epoch=7/30 loss=0.7107
+  epoch 007: train_loss=0.8915 val_loss=1.1577 train_emotion=0.5999 val_emotion=0.8209 lr=3.00e-04
+  starting epoch 008/030
+    train batch 020/063 epoch=8/30 loss=0.8704
+    train batch 040/063 epoch=8/30 loss=0.8394
+    train batch 060/063 epoch=8/30 loss=0.8075
+    train batch 063/063 epoch=8/30 loss=1.0300
+  epoch 008: train_loss=0.8577 val_loss=1.1817 train_emotion=0.5727 val_emotion=0.8531 lr=3.00e-04
+  starting epoch 009/030
+    train batch 020/063 epoch=9/30 loss=0.7423
+    train batch 040/063 epoch=9/30 loss=0.8614
+    train batch 060/063 epoch=9/30 loss=0.7496
+    train batch 063/063 epoch=9/30 loss=0.8858
+  epoch 009: train_loss=0.8091 val_loss=1.1512 train_emotion=0.5381 val_emotion=0.8319 lr=3.00e-04
+  starting epoch 010/030
+    train batch 020/063 epoch=10/30 loss=0.6947
+    train batch 040/063 epoch=10/30 loss=0.8570
+    train batch 060/063 epoch=10/30 loss=0.8439
+    train batch 063/063 epoch=10/30 loss=0.8360
+  epoch 010: train_loss=0.7596 val_loss=1.2179 train_emotion=0.5022 val_emotion=0.8892 lr=3.00e-04
+    val_f1=0.616 felt_a=0.499 felt_v=0.605 perc_a=0.591 perc_v=0.768 raw_mae=1.068 gap_mae=1.214
+  starting epoch 011/030
+    train batch 020/063 epoch=11/30 loss=0.7565
+    train batch 040/063 epoch=11/30 loss=0.8246
+    train batch 060/063 epoch=11/30 loss=0.7181
+    train batch 063/063 epoch=11/30 loss=0.5880
+  epoch 011: train_loss=0.7377 val_loss=1.2486 train_emotion=0.4857 val_emotion=0.9143 lr=3.00e-04
+  starting epoch 012/030
+    train batch 020/063 epoch=12/30 loss=0.7651
+    train batch 040/063 epoch=12/30 loss=0.5683
+    train batch 060/063 epoch=12/30 loss=0.7176
+    train batch 063/063 epoch=12/30 loss=0.6294
+  epoch 012: train_loss=0.6697 val_loss=1.3854 train_emotion=0.4347 val_emotion=1.0193 lr=3.00e-04
+  starting epoch 013/030
+    train batch 020/063 epoch=13/30 loss=0.7127
+    train batch 040/063 epoch=13/30 loss=0.5837
+    train batch 060/063 epoch=13/30 loss=0.5989
+    train batch 063/063 epoch=13/30 loss=0.7076
+  epoch 013: train_loss=0.6416 val_loss=1.3339 train_emotion=0.4127 val_emotion=1.0050 lr=1.50e-04
+  starting epoch 014/030
+    train batch 020/063 epoch=14/30 loss=0.5841
+    train batch 040/063 epoch=14/30 loss=0.5582
+    train batch 060/063 epoch=14/30 loss=0.5784
+    train batch 063/063 epoch=14/30 loss=0.4458
+  epoch 014: train_loss=0.5786 val_loss=1.4248 train_emotion=0.3653 val_emotion=1.0838 lr=1.50e-04
+  starting epoch 015/030
+    train batch 020/063 epoch=15/30 loss=0.6129
+    train batch 040/063 epoch=15/30 loss=0.5267
+    train batch 060/063 epoch=15/30 loss=0.5435
+    train batch 063/063 epoch=15/30 loss=0.7103
+  epoch 015: train_loss=0.5428 val_loss=1.5190 train_emotion=0.3377 val_emotion=1.1796 lr=1.50e-04
+    val_f1=0.602 felt_a=0.450 felt_v=0.612 perc_a=0.569 perc_v=0.777 raw_mae=1.093 gap_mae=1.224
+  starting epoch 016/030
+    train batch 020/063 epoch=16/30 loss=0.5073
+    train batch 040/063 epoch=16/30 loss=0.5164
+    train batch 060/063 epoch=16/30 loss=0.5557
+    train batch 063/063 epoch=16/30 loss=0.6491
+  epoch 016: train_loss=0.5202 val_loss=1.5558 train_emotion=0.3212 val_emotion=1.1912 lr=1.50e-04
+  starting epoch 017/030
+    train batch 020/063 epoch=17/30 loss=0.4410
+    train batch 040/063 epoch=17/30 loss=0.5089
+    train batch 060/063 epoch=17/30 loss=0.4090
+    train batch 063/063 epoch=17/30 loss=0.6188
+  epoch 017: train_loss=0.5000 val_loss=1.5947 train_emotion=0.3054 val_emotion=1.2316 lr=7.50e-05
+  starting epoch 018/030
+    train batch 020/063 epoch=18/30 loss=0.4008
+    train batch 040/063 epoch=18/30 loss=0.4289
+    train batch 060/063 epoch=18/30 loss=0.5016
+    train batch 063/063 epoch=18/30 loss=0.3845
+  epoch 018: train_loss=0.4580 val_loss=1.6395 train_emotion=0.2748 val_emotion=1.2797 lr=7.50e-05
+  starting epoch 019/030
+    train batch 020/063 epoch=19/30 loss=0.3844
+    train batch 040/063 epoch=19/30 loss=0.5332
+    train batch 060/063 epoch=19/30 loss=0.4837
+    train batch 063/063 epoch=19/30 loss=0.3015
+  epoch 019: train_loss=0.4416 val_loss=1.7040 train_emotion=0.2613 val_emotion=1.3443 lr=7.50e-05
+  starting epoch 020/030
+    train batch 020/063 epoch=20/30 loss=0.3859
+    train batch 040/063 epoch=20/30 loss=0.4591
+    train batch 060/063 epoch=20/30 loss=0.4419
+    train batch 063/063 epoch=20/30 loss=0.4800
+  epoch 020: train_loss=0.4405 val_loss=1.7423 train_emotion=0.2606 val_emotion=1.3783 lr=7.50e-05
+    val_f1=0.590 felt_a=0.450 felt_v=0.604 perc_a=0.546 perc_v=0.762 raw_mae=1.146 gap_mae=1.292
+  starting epoch 021/030
+    train batch 020/063 epoch=21/30 loss=0.4171
+    train batch 040/063 epoch=21/30 loss=0.3387
+    train batch 060/063 epoch=21/30 loss=0.4016
+    train batch 063/063 epoch=21/30 loss=0.6357
+  epoch 021: train_loss=0.4350 val_loss=1.7754 train_emotion=0.2564 val_emotion=1.4104 lr=3.75e-05
+  starting epoch 022/030
+    train batch 020/063 epoch=22/30 loss=0.4412
+    train batch 040/063 epoch=22/30 loss=0.3652
+    train batch 060/063 epoch=22/30 loss=0.4892
+    train batch 063/063 epoch=22/30 loss=0.5658
+  epoch 022: train_loss=0.4092 val_loss=1.7858 train_emotion=0.2380 val_emotion=1.4135 lr=3.75e-05
+  starting epoch 023/030
+    train batch 020/063 epoch=23/30 loss=0.3891
+    train batch 040/063 epoch=23/30 loss=0.3766
+    train batch 060/063 epoch=23/30 loss=0.4303
+    train batch 063/063 epoch=23/30 loss=0.4845
+  epoch 023: train_loss=0.4036 val_loss=1.8142 train_emotion=0.2314 val_emotion=1.4522 lr=3.75e-05
+  starting epoch 024/030
+    train batch 020/063 epoch=24/30 loss=0.3874
+    train batch 040/063 epoch=24/30 loss=0.4446
+    train batch 060/063 epoch=24/30 loss=0.3575
+    train batch 063/063 epoch=24/30 loss=0.4067
+  epoch 024: train_loss=0.3946 val_loss=1.8582 train_emotion=0.2243 val_emotion=1.4896 lr=3.75e-05
+  starting epoch 025/030
+    train batch 020/063 epoch=25/30 loss=0.3418
+    train batch 040/063 epoch=25/30 loss=0.3793
+    train batch 060/063 epoch=25/30 loss=0.3721
+    train batch 063/063 epoch=25/30 loss=0.4309
+  epoch 025: train_loss=0.3925 val_loss=1.8406 train_emotion=0.2226 val_emotion=1.4781 lr=1.87e-05
+    val_f1=0.587 felt_a=0.437 felt_v=0.600 perc_a=0.553 perc_v=0.757 raw_mae=1.144 gap_mae=1.289
+  starting epoch 026/030
+    train batch 020/063 epoch=26/30 loss=0.3401
+    train batch 040/063 epoch=26/30 loss=0.4032
+    train batch 060/063 epoch=26/30 loss=0.3729
+    train batch 063/063 epoch=26/30 loss=0.3745
+  epoch 026: train_loss=0.3777 val_loss=1.8427 train_emotion=0.2107 val_emotion=1.4775 lr=1.87e-05
+  starting epoch 027/030
+    train batch 020/063 epoch=27/30 loss=0.2828
+    train batch 040/063 epoch=27/30 loss=0.3477
+    train batch 060/063 epoch=27/30 loss=0.4058
+    train batch 063/063 epoch=27/30 loss=0.3297
+  epoch 027: train_loss=0.3756 val_loss=1.8709 train_emotion=0.2124 val_emotion=1.5052 lr=1.87e-05
+  starting epoch 028/030
+/var/folders/36/m_5br8615nn0xjj7xr694rq40000gn/T/tmp3l9af48o: line 3:  3521 Terminated: 15          python -u -m mumtaffect.train_v2 --pickle data/raw/dataset_mumt_v2.pkl --out_dir mumtaffect/grid_results_v2/zero_shot --folds 5 --epochs 30 --metric_interval 5 --batch_log_interval 20 --device auto
