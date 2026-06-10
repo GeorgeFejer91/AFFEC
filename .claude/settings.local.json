@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python -m mumtaffect.train --pickle data/raw/dataset_enhanced.pkl --folds 5 --phase2_epochs 60 --phase4_epochs 30 --batch_size 32)",
+      "Bash(echo \"Exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(grep -E \"\\(Config|fold|Fold|R2|r2_val|r2_test|best_f1|val_f1|test_f1|Ph1|Ph3|R²|Personality|personality|emotion|arousal|valence|mean|std|summary\\)\" /tmp/train_full.log | grep -v \"tqdm\\\\|%|ep/s\" | head -200)",
+      "Read(//private/tmp/**)"
+    ]
+  }
+}
